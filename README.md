@@ -11,7 +11,7 @@
 - Adaptive aggregation adjusts the receptive fields for each stage feature.
 - Our MGFA modules in the decoder are crucial to obtaining accurate boundaries of the tissue objects.
 
-Introduction
+## Introduction
 -----------------
 GA2Net is a network consisting of an encoder, bottleneck, and decoder designed for effective feature extraction and segmentation. 
 The encoder captures multi-scale features, while the bottleneck employs a hierarchical-gated feature aggregation (HGFA) mechanism to enhance spatial understanding. 
@@ -19,7 +19,7 @@ Adaptive aggregation (AA) in the decoder dynamically adjusts receptive fields, r
 Additionally, mask-guided feature attention (MGFA) modules use foreground priors to emphasize important structural details. 
 Intermediate supervision is applied in both the bottleneck and decoder to improve boundary detection and tissue localization.
 
-Methods
+## Framework
 -----------------
 <img width="1096" alt="image" src="https://github.com/mustansarfiaz/ga2net/blob/main/main_framework.jpg">
 <img width="1096" alt="image" src="https://github.com/mustansarfiaz/ga2net/blob/main/HGFA_MGFA.jpg">
@@ -34,8 +34,6 @@ Our code is based on [SA-Net](https://github.com/mustansarfiaz/SA2-Net), [Awesom
 
 For ISIC2018 and SegPC2021, we follow [Awesome-U-Net](https://github.com/NITR098/Awesome-U-Net).
 For ACDC and polyps, we follow [CASCADE](https://github.com/SLDGroup/CASCADE/tree/main).
-
-
 
 - ## Citation
 

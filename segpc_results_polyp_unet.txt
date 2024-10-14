@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jun  3 11:59:31 2023
+
+@author: mbzuaiser
+"""
+
+s]**********************    Scores are ****************
+*****************************************************
+*****************************************************
+{'test_metrics/MulticlassF1Score': tensor(0.9870, device='cuda:3'), 'test_metrics/MulticlassAccuracy': tensor(0.9870, device='cuda:3'), 'test_metrics/Dice': tensor(0.9245, device='cuda:3'), 'test_metrics/MulticlassPrecision': tensor(0.9870, device='cuda:3'), 'test_metrics/MulticlassSpecificity': tensor(0.9870, device='cuda:3'), 'test_metrics/MulticlassRecall': tensor(0.9870, device='cuda:3'), 'test_metrics/MulticlassJaccardIndex': tensor(0.9228, device='cuda:3')}

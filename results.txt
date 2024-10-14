@@ -1,0 +1,7 @@
+**********************    Scores are ****************
+*****************************************************
+*****************************************************
+{'test_metrics/MulticlassF1Score': tensor(0.9874, device='cuda:2'), 'test_metrics/MulticlassAccuracy': tensor(0.9874, device='cuda:2'), 'test_metrics/Dice': tensor(0.9274, device='cuda:2'), 'test_metrics/MulticlassPrecision': tensor(0.9874, device='cuda:2'), 'test_metrics/MulticlassSpecificity': tensor(0.9874, device='cuda:2'), 'test_metrics/MulticlassRecall': tensor(0.9874, device='cuda:2'), 'test_metrics/MulticlassJaccardIndex': tensor(0.9254, device='cuda:2')}
+*****************************************************
+*****************************************************
+100%|██████████| 50/50 [00:22<00:00,  2.27it/s]

@@ -30,9 +30,11 @@ data_loader:
     pin_memory: false
 training:
   optimizer:
-    name: 'Adam'
+    name: 'SGD'
     params:
       lr: 0.0001
+      momentum: 0.9
+      weight_decay: 0.0001
   criterion:
     name: "DiceLoss"
     params: {}
@@ -41,10 +43,10 @@ training:
     patience: 10
   epochs: 100
 model:
-  save_dir: '../../saved_models/isic2018_attunet'
+  save_dir: '../../saved_models/isic2018_transunet'
   load_weights: false
-  name: 'AttU_Net'
+  name: 'VisionTransformer'
   params:
-    img_ch: 3
-    output_ch: 2
+    img_size: 224
+    num_classes: 2
 # preprocess:

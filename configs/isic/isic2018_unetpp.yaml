@@ -41,10 +41,11 @@ training:
     patience: 10
   epochs: 100
 model:
-  save_dir: '../../saved_models/isic2018_attunet'
+  save_dir: '../../saved_models/isic2018_unetpp'
   load_weights: false
-  name: 'AttU_Net'
+  name: 'NestedUNet'
   params:
-    img_ch: 3
-    output_ch: 2
+    num_classes: 2
+    input_channels: 3
+    deep_supervision: false
 # preprocess:

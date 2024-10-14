@@ -4,29 +4,29 @@ run:
 transforms: none
 dataset:
   class_name: "ISIC2018Dataset"
-  input_size: 224
+  input_size: [224, 224]
   training:
     params:
-      data_dir: "/path/to/datasets/ISIC2018"
+      data_dir: "/dccstor/urban/mustansar/codes/med/datasets/ISIC2018/np"
   validation:
     params:
-      data_dir: "/path/to/datasets/ISIC2018"
+      data_dir: "/dccstor/urban/mustansar/codes/med/datasets/ISIC2018/np"
   number_classes: 2
 data_loader:
   train: 
     batch_size: 16
     shuffle: true
-    num_workers: 8
+    num_workers: 0
     pin_memory: true
   validation: 
     batch_size: 16
     shuffle: false
-    num_workers: 8
+    num_workers: 0
     pin_memory: true
   test:
     batch_size: 16
     shuffle: false
-    num_workers: 4
+    num_workers: 0
     pin_memory: false
 training:
   optimizer:
@@ -41,10 +41,10 @@ training:
     patience: 10
   epochs: 100
 model:
-  save_dir: '../../saved_models/isic2018_attunet'
+  save_dir: './saved_models/isic2018_polyp'
   load_weights: false
-  name: 'AttU_Net'
-  params:
-    img_ch: 3
-    output_ch: 2
+  name: "isic2018_polyp"
+  params: 
+    n_channels: 3
+    n_classes: 2
 # preprocess:

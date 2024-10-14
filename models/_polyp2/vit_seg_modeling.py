@@ -17,7 +17,7 @@ from torch.nn import CrossEntropyLoss, Dropout, Softmax, Linear, Conv2d, LayerNo
 from torch.nn.modules.utils import _pair
 from scipy import ndimage
 from . import vit_seg_configs as configs
-from .vit_seg_modeling_resnet_skip_c4 import ResNetV2
+from .vit_seg_modeling_resnet_skip import ResNetV2
 
 
 logger = logging.getLogger(__name__)
@@ -122,7 +122,7 @@ class Mlp(nn.Module):
 class Embeddings(nn.Module):
     """Construct the embeddings from patch, position embeddings.
     """
-    def __init__(self, config, img_size, in_channels=4):
+    def __init__(self, config, img_size, in_channels=3):
         super(Embeddings, self).__init__()
         self.hybrid = None
         self.config = config
@@ -384,7 +384,7 @@ class VisionTransformer(nn.Module):
 
     def forward(self, x):
         if x.size()[1] == 1:
-            x = x.repeat(1,4,1,1)
+            x = x.repeat(1,3,1,1)
         x, attn_weights, features = self.transformer(x)  # (B, n_patch, hidden)
         x = self.decoder(x, features)
         logits = self.segmentation_head(x)

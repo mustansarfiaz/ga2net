@@ -27,9 +27,8 @@ If you have any questions, please create an issue on this repository or contact 
 ## References
 Our code is based on [SA-Net](https://github.com/mustansarfiaz/SA2-Net), [Awesome-U-Net](https://github.com/NITR098/Awesome-U-Net),  [UCTransNet](https://github.com/McGregorWwww/UCTransNet), and [CASCADE](https://github.com/SLDGroup/CASCADE/tree/main)   repositories. We thank them for releasing their baseline code.
 
-For MoNuSeg and GlaS, we follow [UCTransNet](https://github.com/McGregorWwww/UCTransNet).
 For ISIC2018 and SegPC2021, we follow [Awesome-U-Net](https://github.com/NITR098/Awesome-U-Net).
-For ACDC, we follow [CASCADE](https://github.com/SLDGroup/CASCADE/tree/main).
+For ACDC and polyps, we follow [CASCADE](https://github.com/SLDGroup/CASCADE/tree/main).
 
 * **GA2-Net**: "Guided-attention and gated-aggregation network for medical image segmentation", PR, 2024 (*MBZUAI*). [[Paper]([https://arxiv.org/abs/2309.16661)][[PyTorch](https://github.com/mustansarfiaz/SA2-Net](https://www.sciencedirect.com/science/article/pii/S0031320324005636))]
 

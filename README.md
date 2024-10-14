@@ -39,11 +39,14 @@ For ACDC, we follow [CASCADE](https://github.com/SLDGroup/CASCADE/tree/main).
 - ## Citation
 
 ```
-@inproceedings{fiaz2024ga2net,
-  title={Guided-Attention and Gated-Aggregation Network for Medical Image Segmentation},
-  author={Fiaz, Mustansar and Noman, Mubashir and Cholakkal, Hisham and Anwar, Rao Muhammad and Hanna, Jacob and Khan, Fahad Shahbaz},
-  booktitle={PR},
-  year={2024}
+@article{fiaz2024guided,
+  title={Guided-attention and gated-aggregation network for medical image segmentation},
+  author={Fiaz, Mustansar and Noman, Mubashir and Cholakkal, Hisham and Anwer, Rao Muhammad and Hanna, Jacob and Khan, Fahad Shahbaz},
+  journal={Pattern Recognition},
+  volume={156},
+  pages={110812},
+  year={2024},
+  publisher={Elsevier}
 }
 
 @inproceedings{fiaz2022sat,

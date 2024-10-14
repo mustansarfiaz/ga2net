@@ -19,6 +19,11 @@ Adaptive aggregation (AA) in the decoder dynamically adjusts receptive fields, r
 Additionally, mask-guided feature attention (MGFA) modules use foreground priors to emphasize important structural details. 
 Intermediate supervision is applied in both the bottleneck and decoder to improve boundary detection and tissue localization.
 
+Methods
+-----------------
+<img width="1096" alt="image" src="https://github.com/mustansarfiaz/ga2net/blob/main/main_framework.jpg">
+<img width="1096" alt="image" src="https://github.com/mustansarfiaz/ga2net/blob/main/HGFA_MGFA.jpg">
+
 ## Contact
 If you have any questions, please create an issue on this repository or contact us at mustansar.fiaz@mbzuai.ac.ae
 

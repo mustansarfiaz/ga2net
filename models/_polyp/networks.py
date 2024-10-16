@@ -83,6 +83,6 @@ if __name__ == '__main__':
     model = PVT_CASCADE().cuda()
     input_tensor = torch.randn(1, 3, 352, 352).cuda()
 
-    p1, p2, p3, p4 = model(input_tensor)
-    print(p1.size(), p2.size(), p3.size(), p4.size())
+    P5, P4, P3, P2, P1 = model(input_tensor)
+    print(p1.size(), p2.size(), p3.size(), p4.size(), p5.size())
 

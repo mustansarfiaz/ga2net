@@ -30,7 +30,7 @@ If you have any questions, please create an issue on this repository or contact 
 <hr />
 
 ## References
-Our code is based on [SA-Net](https://github.com/mustansarfiaz/SA2-Net), [Awesome-U-Net](https://github.com/NITR098/Awesome-U-Net),  [UCTransNet](https://github.com/McGregorWwww/UCTransNet), and [CASCADE](https://github.com/SLDGroup/CASCADE/tree/main)   repositories. We thank them for releasing their baseline code.
+Our code is based on [SA2-Net](https://github.com/mustansarfiaz/SA2-Net), [Awesome-U-Net](https://github.com/NITR098/Awesome-U-Net),  [UCTransNet](https://github.com/McGregorWwww/UCTransNet), and [CASCADE](https://github.com/SLDGroup/CASCADE/tree/main)   repositories. We thank them for releasing their baseline code.
 
 For ISIC2018 and SegPC2021, we follow [Awesome-U-Net](https://github.com/NITR098/Awesome-U-Net).
 For ACDC and polyps, we follow [CASCADE](https://github.com/SLDGroup/CASCADE/tree/main).
